@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html{
+    font-size: 16px;
+    font-family: 'Lora', serif;
+}
+/* Header Start */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem 0 0;
+    padding-bottom: 0;
+    height: 9.8rem;
+}
+.navbar a{
+    margin: 1.6rem;
+    font-size: 1.3rem;
+    color: #232D3F;
+    font-weight: 500;
+}
+.navbar a:hover{
+    border-bottom: rgb(118, 118, 118) solid 1.2px;
+    
+}
+.header .logo a img{
+    width: 10rem;
+    height: 10rem;
+}
+.header .logo{
+    display: flex;
+}
+.baslik{
+    position: relative;
+    top: 4.9rem;
+    font-size: 1.6rem;
+    height: 12rem;
+    color:#232D3F;
+}
+hr{
+    position: relative;
+    bottom: 2.2rem;
+    border: #232D3F solid 0.5px;
+
+}
